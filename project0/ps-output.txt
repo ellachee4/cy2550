@@ -1,0 +1,184 @@
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0 15 19:51 ?        00:13:36 /sbin/init splash
+root           2       0  0 19:51 ?        00:00:00 [kthreadd]
+root           3       2  0 19:51 ?        00:00:00 [rcu_gp]
+root           4       2  0 19:51 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 19:51 ?        00:00:00 [slub_flushwq]
+root           6       2  0 19:51 ?        00:00:00 [netns]
+root           8       2  0 19:51 ?        00:00:00 [kworker/0:0H-events_highpri]
+root          10       2  0 19:51 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 19:51 ?        00:00:00 [rcu_tasks_kthread]
+root          12       2  0 19:51 ?        00:00:00 [rcu_tasks_rude_kthread]
+root          13       2  0 19:51 ?        00:00:00 [rcu_tasks_trace_kthread]
+root          14       2  0 19:51 ?        00:00:01 [ksoftirqd/0]
+root          15       2  0 19:51 ?        00:00:11 [rcu_preempt]
+root          16       2  0 19:51 ?        00:00:00 [migration/0]
+root          17       2  0 19:51 ?        00:00:00 [idle_inject/0]
+root          19       2  0 19:51 ?        00:00:00 [cpuhp/0]
+root          20       2  0 19:51 ?        00:00:00 [kdevtmpfs]
+root          21       2  0 19:51 ?        00:00:00 [inet_frag_wq]
+root          22       2  0 19:51 ?        00:00:00 [kauditd]
+root          23       2  0 19:51 ?        00:00:00 [khungtaskd]
+root          25       2  0 19:51 ?        00:00:00 [oom_reaper]
+root          26       2  0 19:51 ?        00:00:00 [writeback]
+root          28       2  0 19:51 ?        00:00:01 [kcompactd0]
+root          29       2  0 19:51 ?        00:00:00 [ksmd]
+root          30       2  0 19:51 ?        00:00:00 [khugepaged]
+root          31       2  0 19:51 ?        00:00:00 [kintegrityd]
+root          32       2  0 19:51 ?        00:00:00 [kblockd]
+root          33       2  0 19:51 ?        00:00:00 [blkcg_punt_bio]
+root          34       2  0 19:51 ?        00:00:00 [tpm_dev_wq]
+root          35       2  0 19:51 ?        00:00:00 [ata_sff]
+root          36       2  0 19:51 ?        00:00:00 [md]
+root          37       2  0 19:51 ?        00:00:00 [edac-poller]
+root          38       2  0 19:51 ?        00:00:00 [devfreq_wq]
+root          39       2  0 19:51 ?        00:00:00 [watchdogd]
+root          40       2  0 19:51 ?        00:00:01 [kworker/0:1H-kblockd]
+root          41       2  0 19:51 ?        00:00:00 [kswapd0]
+root          42       2  0 19:51 ?        00:00:00 [ecryptfs-kthread]
+root          49       2  0 19:51 ?        00:00:00 [kthrotld]
+root          53       2  0 19:51 ?        00:00:00 [acpi_thermal_pm]
+root          54       2  0 19:51 ?        00:00:00 [xenbus_probe]
+root          55       2  0 19:51 ?        00:00:00 [vfio-irqfd-clea]
+root          56       2  0 19:51 ?        00:00:00 [mld]
+root          57       2  0 19:51 ?        00:00:00 [ipv6_addrconf]
+root          62       2  0 19:51 ?        00:00:00 [kstrp]
+root          68       2  0 19:51 ?        00:00:00 [zswap-shrink]
+root          69       2  0 19:51 ?        00:00:00 [kworker/u3:0]
+root         113       2  0 19:51 ?        00:00:00 [charger_manager]
+root         156       2  0 19:51 ?        00:00:00 [scsi_eh_0]
+root         157       2  0 19:51 ?        00:00:00 [scsi_tmf_0]
+root         158       2  0 19:51 ?        00:00:00 [scsi_eh_1]
+root         159       2  0 19:51 ?        00:00:00 [scsi_tmf_1]
+root         160       2  0 19:51 ?        00:00:00 [scsi_eh_2]
+root         161       2  0 19:51 ?        00:00:00 [scsi_tmf_2]
+root         162       2  0 19:51 ?        00:00:00 [scsi_eh_3]
+root         163       2  0 19:51 ?        00:00:00 [scsi_tmf_3]
+root         164       2  0 19:51 ?        00:00:00 [scsi_eh_4]
+root         165       2  0 19:51 ?        00:00:00 [scsi_tmf_4]
+root         166       2  0 19:51 ?        00:00:00 [scsi_eh_5]
+root         167       2  0 19:51 ?        00:00:00 [scsi_tmf_5]
+root         194       2  0 19:51 ?        00:00:01 [jbd2/sda2-8]
+root         195       2  0 19:51 ?        00:00:00 [ext4-rsv-conver]
+root         207       2  0 19:52 ?        00:00:00 [hwrng]
+root         235       1  0 19:52 ?        00:00:04 /lib/systemd/systemd-journald
+root         269       1  0 19:52 ?        00:00:01 /lib/systemd/systemd-udevd
+systemd+     383       1  1 19:52 ?        00:01:06 /lib/systemd/systemd-oomd
+systemd+     385       1  0 19:52 ?        00:00:03 /lib/systemd/systemd-resolved
+systemd+     388       1  0 19:52 ?        00:00:00 /lib/systemd/systemd-timesyncd
+root         468       1  0 19:53 ?        00:00:01 /usr/libexec/accounts-daemon
+root         469       1  0 19:53 ?        00:00:00 /usr/sbin/acpid
+avahi        472       1  0 19:53 ?        00:00:02 avahi-daemon: running [ellachee-Standard-PC-Q35-ICH9-2009.local]
+root         474       1  0 19:53 ?        00:00:00 /usr/sbin/cron -f -P
+message+     476       1  0 19:53 ?        00:00:07 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         477       1  0 19:53 ?        00:00:05 /usr/sbin/NetworkManager --no-daemon
+root         486       1  0 19:53 ?        00:00:01 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         489       1  0 19:53 ?        00:00:11 /usr/libexec/polkitd --no-debug
+root         491       1  0 19:53 ?        00:00:00 /usr/libexec/power-profiles-daemon
+syslog       493       1  0 19:53 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+root         500       1  0 19:53 ?        00:00:00 /usr/libexec/switcheroo-control
+root         504       1  0 19:53 ?        00:00:01 /lib/systemd/systemd-logind
+root         506       1  0 19:53 ?        00:00:00 /usr/libexec/udisks2/udisksd
+root         509       1  0 19:53 ?        00:00:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi        540     472  0 19:53 ?        00:00:00 avahi-daemon: chroot helper
+root         551       1  0 19:53 ?        00:00:00 /usr/sbin/cupsd -l
+root         562       1  0 19:53 ?        00:00:00 /usr/sbin/ModemManager
+root         582       1  0 19:53 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         603       1  0 19:53 ?        00:00:00 /usr/sbin/gdm3
+root         632       1  0 19:53 ?        00:00:00 /usr/sbin/cups-browsed
+kernoops     642       1  0 19:53 ?        00:00:00 /usr/sbin/kerneloops --test
+kernoops     649       1  0 19:53 ?        00:00:00 /usr/sbin/kerneloops
+root         692     603  0 19:53 ?        00:00:00 gdm-session-worker [pam/gdm-autologin]
+ellachee     698       1  0 19:53 ?        00:00:15 /lib/systemd/systemd --user
+ellachee     699     698  0 19:53 ?        00:00:00 (sd-pam)
+ellachee     705     698  0 19:53 ?        00:00:00 /usr/bin/pipewire
+ellachee     706     698  0 19:53 ?        00:00:00 /usr/bin/pipewire-media-session
+rtkit        713       1  0 19:53 ?        00:00:00 /usr/libexec/rtkit-daemon
+ellachee     719     698  0 19:53 ?        00:00:07 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ellachee     722     692  0 19:53 tty2     00:00:00 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+ellachee     726     722  0 19:53 tty2     00:00:00 /usr/libexec/gnome-session-binary --session=ubuntu
+ellachee     727     698  0 19:53 ?        00:00:00 /usr/libexec/gvfsd
+ellachee     739     698  0 19:53 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+ellachee     845     698  0 20:07 ?        00:00:00 /usr/libexec/gnome-session-ctl --monitor
+ellachee     851     698  0 20:07 ?        00:00:00 /usr/bin/gnome-keyring-daemon --start --components ssh
+ellachee     889     698  0 20:07 ?        00:00:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+ellachee     903     889  0 20:07 ?        00:00:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+ellachee     905     698 17 20:07 ?        00:13:10 /usr/bin/gnome-shell
+ellachee     914     903  0 20:07 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+ellachee     960     698  0 20:07 ?        00:00:00 /usr/libexec/xdg-permission-store
+ellachee     965     698  0 20:07 ?        00:00:00 /usr/libexec/gnome-shell-calendar-server
+ellachee     971     698  0 20:07 ?        00:00:00 /usr/libexec/evolution-source-registry
+ellachee     975     698  0 20:07 ?        00:00:00 /usr/libexec/dconf-service
+ellachee     981     698  0 20:07 ?        00:00:00 /usr/libexec/goa-daemon
+root         982       1  0 20:07 ?        00:00:00 /usr/libexec/upowerd
+ellachee     991     698  0 20:07 ?        00:00:00 /usr/libexec/goa-identity-service
+ellachee     992     698  0 20:07 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+ellachee     996     698  0 20:07 ?        00:00:01 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+ellachee    1014     698  0 20:07 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
+ellachee    1021     698  0 20:07 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+ellachee    1032     698  0 20:07 ?        00:00:02 /usr/libexec/gvfs-afc-volume-monitor
+ellachee    1037     698  0 20:07 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+ellachee    1045     698  0 20:07 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+ellachee    1049     698  0 20:07 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+root        1053       1  0 20:07 ?        00:00:00 /usr/libexec/packagekitd
+ellachee    1061     727  0 20:07 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+ellachee    1071     698  0 20:07 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+ellachee    1073     698  0 20:07 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+ellachee    1083     698  0 20:07 ?        00:00:00 sh -c /usr/bin/ibus-daemon --panel disable $([ "$XDG_SESSION_TYPE" = "x11" ] && echo "--xim")
+ellachee    1086     698  0 20:07 ?        00:00:00 /usr/libexec/gsd-a11y-settings
+ellachee    1087    1083  0 20:07 ?        00:00:12 /usr/bin/ibus-daemon --panel disable
+ellachee    1088     698  0 20:07 ?        00:00:01 /usr/libexec/gsd-color
+ellachee    1090     698  0 20:07 ?        00:00:00 /usr/libexec/gsd-datetime
+ellachee    1096     698  0 20:07 ?        00:00:01 /usr/libexec/gsd-housekeeping
+ellachee    1097     698  0 20:07 ?        00:00:00 /usr/libexec/gsd-keyboard
+ellachee    1099     698  0 20:07 ?        00:00:00 /usr/libexec/gsd-media-keys
+ellachee    1102     698  0 20:07 ?        00:00:00 /usr/libexec/gsd-power
+ellachee    1103     698  0 20:07 ?        00:00:00 /usr/libexec/gsd-print-notifications
+ellachee    1104     698  0 20:07 ?        00:00:00 /usr/libexec/gsd-rfkill
+ellachee    1105     698  0 20:07 ?        00:00:00 /usr/libexec/gsd-screensaver-proxy
+ellachee    1106     698  0 20:07 ?        00:00:00 /usr/bin/spice-vdagent
+ellachee    1107     698  0 20:07 ?        00:00:00 /usr/libexec/gsd-sharing
+ellachee    1112     698  0 20:07 ?        00:00:00 /usr/libexec/gsd-smartcard
+ellachee    1121     698  0 20:07 ?        00:00:00 /usr/libexec/gsd-sound
+ellachee    1123     698  0 20:07 ?        00:00:00 /usr/libexec/gsd-wacom
+ellachee    1151     905  0 20:07 ?        00:00:04 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.W2TM71 -listen 4 -listen 5 -displayfd 6 -initfd 7
+ellachee    1167     698  0 20:07 ?        00:00:00 /usr/libexec/gsd-printer
+ellachee    1192    1087  0 20:07 ?        00:00:00 /usr/libexec/ibus-memconf
+ellachee    1193    1087  0 20:07 ?        00:00:07 /usr/libexec/ibus-extension-gtk3
+ellachee    1195     698  0 20:07 ?        00:00:00 /usr/libexec/ibus-portal
+ellachee    1220     889  0 20:08 ?        00:00:01 /usr/libexec/evolution-data-server/evolution-alarm-notify
+ellachee    1227     889  0 20:08 ?        00:00:00 /usr/libexec/gsd-disk-utility-notify
+root        1315       1  0 20:08 ?        00:00:21 /usr/lib/snapd/snapd
+ellachee    1320    1087  0 20:08 ?        00:00:03 /usr/libexec/ibus-engine-simple
+colord      1388       1  0 20:08 ?        00:00:00 /usr/libexec/colord
+ellachee    1397     698  0 20:08 ?        00:00:13 /usr/libexec/gnome-initial-setup --existing-user
+ellachee    1398     698  0 20:08 ?        00:00:06 /usr/libexec/tracker-miner-fs-3
+ellachee    1401     698  0 20:08 ?        00:00:02 /usr/libexec/xdg-desktop-portal
+ellachee    1407     698  0 20:08 ?        00:00:00 /usr/libexec/xdg-document-portal
+root        1412    1407  0 20:08 ?        00:00:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+ellachee    1417     698  0 20:08 ?        00:00:01 /usr/libexec/xdg-desktop-portal-gnome
+ellachee    1449     698  0 20:08 ?        00:00:01 /usr/libexec/gsd-xsettings
+ellachee    1452     698  0 20:08 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+ellachee    1484     698  0 20:08 ?        00:00:00 /usr/libexec/gvfsd-metadata
+ellachee    1538     698  0 20:08 ?        00:00:00 /usr/libexec/ibus-x11
+root        1559       1  0 20:08 ?        00:00:15 /usr/sbin/spice-vdagentd
+ellachee    1570     889  0 20:09 ?        00:00:02 update-notifier
+ellachee    1706     698  0 20:09 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gtk
+root        1775       1  0 20:09 ?        00:00:00 /usr/libexec/ubuntu-advantage-desktop-daemon
+ellachee    2388     698  0 20:11 ?        00:00:00 /snap/snapd-desktop-integration/49/usr/bin/snapd-desktop-integration
+ellachee    2583    2388  0 20:12 ?        00:00:00 /snap/snapd-desktop-integration/49/usr/bin/snapd-desktop-integration
+ellachee    2746     698  0 20:18 ?        00:00:08 /usr/bin/gnome-calendar --gapplication-service
+ellachee    2788     727  0 20:18 ?        00:00:00 /usr/libexec/gvfsd-network --spawner :1.3 /org/gtk/gvfs/exec_spaw/1
+ellachee    2804     727  0 20:18 ?        00:00:00 /usr/libexec/gvfsd-dnssd --spawner :1.3 /org/gtk/gvfs/exec_spaw/3
+ellachee    2831     698  0 20:20 ?        00:00:01 /usr/bin/seahorse --gapplication-service
+root        3294       2  0 20:27 ?        00:00:08 [kworker/0:2-events]
+root        3541       2  0 20:33 ?        00:00:01 [kworker/u2:1-events_unbound]
+ellachee    3957     698  0 20:53 ?        00:00:00 /usr/bin/snap userd
+ellachee    4932     698  1 20:58 ?        00:00:21 /usr/libexec/gnome-terminal-server
+ellachee    4992    4932  0 20:58 pts/0    00:00:00 bash
+ellachee    5160     905  0 21:10 ?        00:00:02 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com -M 0 -D 0:0:1280:800:1:27:0:0:0:0
+root        5197       2  0 21:10 ?        00:00:00 [kworker/u2:0-events_power_efficient]
+root        5446       2  0 21:15 ?        00:00:00 [kworker/0:1-events]
+root        5515       2  0 21:15 ?        00:00:00 [kworker/u2:2-events_unbound]
+root        5527       2  0 21:20 ?        00:00:00 [kworker/0:0-events]
+ellachee    5756    4992  0 21:22 pts/0    00:00:00 ps -ef
